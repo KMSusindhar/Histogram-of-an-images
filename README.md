@@ -33,7 +33,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-image = cv2.imread('rose.jpeg')
+image = cv2.imread('butterfly.jpg')
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 hist_original = cv2.calcHist([gray_image], [0], None, [256], [0, 256])
 
@@ -71,10 +71,8 @@ plt.show()
 
 ```
 ## Output:
-<img width="321" height="274" alt="image" src="https://github.com/user-attachments/assets/ed5def51-9774-4a90-bb17-65e224e9260b" />
-<img width="204" height="273" alt="image" src="https://github.com/user-attachments/assets/34445cb6-9d2d-41c4-91b9-71875c35a9fa" />
-<img width="363" height="316" alt="image" src="https://github.com/user-attachments/assets/eeab2e36-395f-432a-b490-4e48007fb7bc" />
-<img width="381" height="298" alt="image" src="https://github.com/user-attachments/assets/e6935386-eb74-4171-96b2-bcc4d48d89bc" />
+<img width="1107" height="782" alt="image" src="https://github.com/user-attachments/assets/755f3bdc-d3eb-43d4-a3c0-80a42b2322e8" />
+
 
 
 ## Result: 
